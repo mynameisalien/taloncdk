@@ -58,7 +58,7 @@ Skills = {
         ['X'] = {true, 0.3, 0.4}, 
     },
     ['Gun'] = {
-        ['Enabled'] = {true true},
+        ['Enabled'] = {true, true},
         ['Z'] = {true, 0, 0}, 
         ['X'] = {true, 0, 0}, 
     }
