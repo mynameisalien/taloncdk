@@ -58,9 +58,9 @@ Skills = {
         ['X'] = {true, 0.3, 0.4}, 
     },
     ['Gun'] = {
-        ['Enabled'] = {true, true},
-        ['Z'] = {true, 0, 0}, 
-        ['X'] = {true, 0, 0}, 
+        ['Enabled'] = {false, false},
+        ['Z'] = {false, 0, 0}, 
+        ['X'] = {false, 0, 0}, 
     }
 }
 
@@ -79,8 +79,8 @@ Macro = {
 Counter = {
     ['Enabled'] = true,
     ['Webhook'] = {
-        ['Enabled'] = false,
-        ['Url'] = ''
+        ['Enabled'] = true,
+        ['Url'] = 'https://discord.com/api/webhooks/1297206736758771853/U31LkDSSW4iKmjY91FM8jsJigTeTjr6blLDVJJASzUsNGujyiqs9Vk0ThFfRZ80G5J4T'
     },
     ['Theme'] = {
         ['Character'] = 'Yae',
