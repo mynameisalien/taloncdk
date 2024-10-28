@@ -8,20 +8,22 @@ Setup = {
             ['Marines'] = {0, 30000000}
         }
     },
-    ['Panic % Health'] = {35, 55},
+    ['Panic % Health'] = {40, 45},
     ['Chatting'] = {},
     ['Lock Cam'] = false,
-    ['Hop Region'] = 'Singapore',
+    ['Hop Region'] = 'United States',
     ['Random Y Tween'] = false,
-    ['Click Delay'] = 0.2
+    ['Click Delay'] = 0.175
 }
 
 Hunter = {
     ['Ignore'] = {
         ['Fruit'] = {  
+            'Portal-Portal',
+            'Kitsune-Kitsune',
             'Meme-Meme'
         },
-        ['Timer'] = 72,
+        ['Timer'] = 75,
         ['V4'] = true
     },
     ['Gun Mode'] = false,
@@ -40,25 +42,25 @@ Booster = {
 Skills = {
     ['Melee'] = {
         ['Enabled'] = {true, true},
-        ['Z'] = {true, 0.1, 0.165}, 
-        ['X'] = {true, 0.3, 0.246}, 
-        ['C'] = {true, 0.5, 0.125}
+        ['Z'] = {true, 1.5, 0}, 
+        ['X'] = {true, 0, 0}, 
+        ['C'] = {true, 0, 0}
     },
     ['Blox Fruit'] = {
         ['Enabled'] = {false, false},
-        ['Z'] = {true, 1.325, 0.9}, 
-        ['X'] = {true, 0.6, 0.235}, 
-        ['C'] = {true, 0.2, 0.435},
-        ['V'] = {true, 0.3, 0.195},
-        ['F'] = {true, 0, 0.6}
+        ['Z'] = {true, 0, 0}, 
+        ['X'] = {true, 0, 0}, 
+        ['C'] = {true, 0, 0},
+        ['V'] = {false, 0, 0},
+        ['F'] = {true, 0, 0}
     },
     ['Sword'] = {
         ['Enabled'] = {true, true},
-        ['Z'] = {true, 0.5, 0.2}, 
-        ['X'] = {true, 0.3, 0.4}, 
+        ['Z'] = {true, 0.5, 0}, 
+        ['X'] = {true, 0, 0}, 
     },
     ['Gun'] = {
-        ['Enabled'] = {false, false},
+        ['Enabled'] = {true, true},
         ['Z'] = {false, 0, 0}, 
         ['X'] = {false, 0, 0}, 
     }
@@ -67,11 +69,11 @@ Skills = {
 Macro = {
     ['Enabled'] = true,
     ['Skills'] = {
-        [1] = {'Melee', {'C', 'Z'}},
-        [2] = {'Blox Fruit', {'F','C'}},
-        [3] = {'Sword', {'X', 'Z'}},
+        [1] = {'Melee', {'Z', 'C'}},
+        [2] = {'Blox Fruit', {'C','X'}},
+        [3] = {'Sword', {'Z', 'X'}},
         [4] = {'Melee', {'X'}},
-        [5] = {'Gun', {'Z', 'V'}},
+        [5] = {'Gun', {'Z', 'X'}},
         [6] = {'Blox Fruit', {'Z', 'F'}}
     }
 }
@@ -79,8 +81,8 @@ Macro = {
 Counter = {
     ['Enabled'] = true,
     ['Webhook'] = {
-        ['Enabled'] = true,
-        ['Url'] = 'https://discord.com/api/webhooks/1297206736758771853/U31LkDSSW4iKmjY91FM8jsJigTeTjr6blLDVJJASzUsNGujyiqs9Vk0ThFfRZ80G5J4T'
+        ['Enabled'] = false,
+        ['Url'] = ''
     },
     ['Theme'] = {
         ['Character'] = 'Yae',
